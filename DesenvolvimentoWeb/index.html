@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <!-- <script src="teste.js" defer></script> -->
+</head>
+<body>
+    <h2> Trabalhando com números </h2>
+    <label id="ln1">Número 1</label>
+    <input id="n1" name="vn1" type="text">
+    <input type="button" value="somar" onclick="somar()">
+    <input type="button" value="dobro" onclick="dobrar()">
+
+    <script>
+        function somar() {
+            let x = Number(document.getElementById(`n1`).value) + 190;
+            x = x.toFixed(2)
+            console.log(`O valor de x + ${x}`);
+            alert(x);
+        }
+        function dobrar() {
+            let x = Number(document.getElementById(`n1`).value) * 2;
+            console.log(`O valor de x + ${x}`);
+            alert(x);
+        }
+    </script>
+</body>
+</html>
