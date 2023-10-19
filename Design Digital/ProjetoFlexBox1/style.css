@@ -1,0 +1,28 @@
+h2{
+   color: rgb(255, 0, 170); 
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    border: 1px solid royalblue;
+}
+p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h3{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+  }
+section{
+    display: flex;
+    justify-content: space-between;
+  }
