@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Lanchonete</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container-fluid">
+    <div class="alert alert-primary" role="alert"><i class="ri-store-2-fill"></i> Hamburgueria do Feh</div>
+    <div class="row g-3">
+        <div class="col-md-6">
+        <label for="nomeCliente" class="form-label"><i class="ri-profile-fill"></i> Nome do Cliente</label>
+        <input class="form-control" type="text" name="nomeCliente" id="nomeCliente">
+        </div>
+        <div class="col-md-6">
+        <label for="telefone" class="form-label"><i class="ri-phone-fill"></i> Telefone</label>
+        <input class="form-control" type="tel" name="telefone" id="telefone">
+        </div>
+        <div class="col-md-6">
+            <label for="combos"><i class="ri-fridge-fill"></i> Combos</label>
+            <select class="form-select" id="combos">
+              <option selected disabled hidden="true">Selecione seu combo...</option>
+              <option value="1">X-tudo</option>
+              <option value="2">X-Salada</option>
+              <option value="3">Cheddar duplo</option>
+              <option value="3">Especial</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label class="form-label"> <i class="ri-increase-decrease-fill"></i> Adicionais</label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="idBacon" value="Bacon">
+                <label class="form-check-label" for="idBacon">Bacon</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="idCheddar" value="Cheddar">
+                <label class="form-check-label" for="idCheddar">Cheddar</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="idPicles" value="Picles">
+                <label class="form-check-label" for="idPicles">Picles</label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label class="form-label"><i class="ri-takeaway-fill"></i> Entrega ?</label>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="viagem" value="viagem" checked>
+            <label class="form-check-label" for="viagem"><i class="ri-motorbike-fill"></i> Para Viagem</label>
+            </div>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="balcao" value="balcao">
+            <label class="form-check-label" for="balcao"><i class="ri-table-fill"></i> Balcão</label>
+            </div>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <button class="btn btn-primary me-md-2" type="button"><i class="ri-calculator-fill"></i> Calcular</button>
+            <button class="btn btn-primary me-md-2" type="button"><i class="ri-recycle-fill"></i> Novo Pedido</button>
+            <button class="btn btn-primary me-md-2" type="button"><i class="ri-draft-fill"></i> Recibo</button>
+        </div>
+        <div class="mb-3">
+            <label for="totalPagar" class="form-label"><i class="ri-money-dollar-box-fill"></i> Total a pagar:</label>
+            <input type="text" class="form-control" id="totalPagar" disabled>
+        </div>
+        <div class="mb-3">
+            <label for="descricaoPedido" class="form-label"><i class="ri-todo-fill"></i> Descrição do Pedido:</label>
+            <textarea class="form-control" id="descricaoPedido" rows="3" disabled></textarea>
+        </div></main>
+    </div>
+    
+</body>
+</html>
