@@ -1,0 +1,26 @@
+.promos{
+    width: 150px;
+    border: 5px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red; 
+    display: flex; 
+    justify-content: center;
+    
+}
+
+body{
+    background-color: rgb(244, 200, 117);
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto 300' ;
+}
+
+.qnt{
+    display: flex;
+    justify-content: center;
+}
+

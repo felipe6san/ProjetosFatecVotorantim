@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios JS</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <fieldset>
+        <div id="exercicio1">
+            <h3>Exercicio 1 - Salário</h3>
+            <label for="salario">Digite o salário atual: </label>
+            <input type="number" name="salario" id="salario"><br>
+            <label for="aumento">Digite o percentual de aumento: </label>
+            <input type="number" name="aumento" id="aumento">
+            <button onclick="calcularSalario()">Calcular</button>
+            <p id="resultadoSalario"></p>
+        </div>  
+    </fieldset>
+    <br>
+    <fieldset>
+        <div id="exercicio2">
+            <h3>Exercicio 2 - Área do Triângulo</h3>
+            <label for="base">Base do triângulo: </label>
+            <input type="number" name="base" id="base"><br>
+            <label for="altura">Altura do triângulo: </label>
+            <input type="number" name="altura" id="altura">
+            <button onclick="calcularTriangulo()">Calcular</button><br>
+            <input type="text" name="areaTriangulo" id="areaTriangulo" readonly>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <div id="exercicio3">
+            <h3>Exercicio 3 - Nota Ponderada</h3>
+            <label for="nota1">Nota 1: </label>
+            <input type="number" name="nota1" id="nota1"><br>
+            <label for="nota2">Nota 2: </label>
+            <input type="number" name="nota2" id="nota2">
+            <button onclick="calcularNota()">Calcular</button><br>
+            <label id="resultadoNota"></label>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <div id="exercicio4">
+            <h3>Exercicio 4 - Idade Aproximada</h3>
+            <label for="nasc">Digite seu ano de Nascimento: </label>
+            <input type="number" name="nasc" id="nasc">
+            <button onclick="calcularIdade()">Calcular</button>
+            <p id="resultadoIdade"></p>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <div id="exercicio5">
+            <h3>Exercicio 5 - Consumo Gasolina</h3>
+            <label for="distancia">Distância(km): </label>
+            <input type="number" name="distancia" id="distancia"><br>
+            <label for="volume">Volume(litros): </label>
+            <input type="number" name="volume" id="volume">
+            <button onclick="consumoGasolina()">Calcular</button>
+            <p id="consumoGasolina"></p>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <div id="exercicio6">
+            <h3>Exercicio 6 - Salário Líquido</h3>
+            <label for="salarioHR">Sálario por hora: </label>
+            <input type="number" name="salarioHR" id="salarioHR"><br>
+            <button onclick="calcularSalarioLiquido()">Calcular</button>
+            <p id="salarioLiquido"></p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div id="exercicio7">
+            <h3>Exercicio 7 - Número Aleatório: Par ou Impar</h3>
+            <button onclick="numeroAleatorio()">Sortear</button>
+            <p id="numeroAleatorio"></p>
+        </div>
+    </fieldset>
+
+</body>
+</html>
